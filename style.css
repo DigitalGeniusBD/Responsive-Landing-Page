@@ -1,0 +1,353 @@
+
+/* ======= Header Area ======= */
+.header-area {
+	overflow: hidden;
+}
+.header-area .logo {
+	display: none;
+}
+.header-image img {
+	width: 100%;
+	height: auto;
+}
+.main-menu {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	margin-top: 20px;
+}
+.main-menu ul li {
+	margin: 0 20px;
+}
+.main-menu ul li a {
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #4d4959;
+	letter-spacing: 1.5px;
+	font-size: 12px;	
+}
+
+/* ==== Into Area ==== */
+
+.into-area {
+	background: #F7F7F7;
+	overflow: hidden;
+	padding: 100px 0;
+}
+.section h2 {
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	line-height: 2em;
+	color: #353738;	
+}
+.section p {
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	line-height: 2em;
+	color: #848789;
+	
+}
+.content {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* ==== Discription Area ==== */
+
+.discription-area {
+	overflow: hidden;
+	
+}
+.big-small {
+	overflow: hidden;
+	max-height: 473px;
+	
+}
+.section {
+	overflow: hidden;
+	
+}
+.big img,
+.small-images img {
+	width: 100%;
+	height: auto;
+}
+.big,
+.small {
+	padding: 0;
+	
+}
+.small-icon {
+	height: 315px;
+	padding: 30px 0;
+	position: relative;
+}
+.small-image {
+	max-height: 200px;
+	
+}
+
+.small-image img {
+	width: 100%;
+}
+
+.small-icon:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 10px solid #FFFFFF;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	
+}
+
+.small-icon hr {
+	width: 10%;
+	margin: 50px 46%;
+	border-width: 2px 0px 0px;
+}
+.small-big {
+	overflow: hidden;
+	max-height: 473px;
+	
+}
+
+.big-small-big {
+	overflow: hidden;
+	max-height: 473px;
+}
+
+
+
+
+
+
+/* ===== twitter Area ==== */
+
+.twitter {
+	background: #F7F7F7;
+	overflow: hidden;
+	padding: 100px 30px;
+}
+.twitter h2 {
+	text-transform: none;
+	
+}
+.twitter p {
+	font-style: italic;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+/* ==== Protfilio ==== */
+
+.protfilio {
+	background: #282F35;
+	overflow: hidden;
+	max-height: 600px;
+}
+
+.protfilio .col-md-4,
+.col-md-6 {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.image-1 img {
+	width: 100%;
+	height: auto;
+	
+}
+.image-2 img {
+	width: 100%;
+	height: 421px;
+	
+}
+.image-3 img {
+	width: 100%;
+	height: auto;
+	
+}
+
+.image-galley {
+	overflow: hidden;
+	max-height: 421px;
+	
+}
+.protfilio a {
+	display: inline-block;
+}
+
+
+.button {
+	width: 50%;
+	margin: auto;
+	padding: 70px 0;
+	
+}
+
+.button a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 1px solid #8F949A;
+	display: inline-block;
+	padding: 10px 35px;
+	letter-spacing: 3px;
+	font-size: 12px;
+	font-weight: 700;
+	transition: 1s;
+	
+}
+
+.button a:hover {
+	background: #FFFFFF;
+	color: #282F35;
+}
+
+/* ==== Subscrib ==== */
+
+.subscrib {
+	padding: 100px 30px;
+}
+
+
+.subscrib .logo img{
+	width: 80px;
+	height: 80px;
+}
+
+.subscrib h4 {
+	font-style: italic;
+	font-family: 'Lato', sans-serif;
+	color: #8D8E90;
+	letter-spacing: 1px;
+	padding: 25px 0;
+}
+
+.subscrib input[type="email"] {
+	width: 27%;
+	height: auto;
+	padding: 20px 10px;
+	border: 2px solid #D9D9D9;
+	color: #8D8E90;
+	
+}
+
+
+.subscrib input[type="submit"] {
+	width: 10%;
+	height: auto;
+	padding: 20px 10px;
+	text-align: center;
+	background: #64C29E;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 700;
+	border: 1px solid #64C29E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== footer-area ==== */
+
+.footer-area {
+	padding: 100px 30px;
+	background: #F7F7F7;
+	
+}
+.footer-area p {
+	font-size: 11px;
+	color: #8D8E90;
+	font-weight: 700;
+}
+
+
+.col-md-12 {
+	padding: 0 100px;
+}
+
+
+.fa-facebook {
+	height: 40px;
+	width: 40px;
+	background: #72CFEE;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin: 1%;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+
+.fa-twitter {
+	height: 40px;
+	width: 40px;
+	background: #5A81C6;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin: 1%;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+
+.fa-pinterest {
+	height: 40px;
+	width: 40px;
+	background: #E5574B;
+	color: #FFFFFF;
+	font-size: 20px;
+	margin: 1%;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+
+.footer-area .handcraft a {
+	font-size: 11px;
+	color: #8D8E90;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
